@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
+import logoList from '../todoList.png';
 
 // get the localStorage data back
 const getLocalData = () => {
@@ -79,7 +80,7 @@ const Todo = () => {
         <div className="child-div">
         
           <figure>
-            <img src='./images/logoL.png' alt="todologo" />
+            <img src= {logoList} alt="todologo" />
              {/* <img src={require('./images/todo.svg').default} alt="dsbdh" /> */}
             <figcaption>Add Your List Here ✌</figcaption>
           </figure>
